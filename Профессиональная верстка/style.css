@@ -5,7 +5,6 @@
 
 body {
     font-family: Lato;
-    background: #F1E4E6;
 }
 
 header {
@@ -36,8 +35,13 @@ nav {
 }
 
 .brand {
+    background: #F1E4E6;
+}
+
+.brand__container {
     max-width: 1140px;
     margin: 0 auto;
+    background: #F1E4E6;
     height: 764px;
     background-image: url(img/mainMan.png);
     background-repeat: no-repeat;
@@ -71,5 +75,96 @@ nav {
 }
 
 .fashion {
+    color: #F16D7F;
+}
+
+.offer {
+    max-width: 1140px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offer__link-1 {
+    display: block;
+    width: 360px;
+    height: 260px;
+    background-blend-mode: multiply;
+    background-image: url(img/for-women.png);
+    background-color: rgba(33, 22, 22, 0.7);
+    text-decoration: none;
+}
+
+.offer__link-1:hover {
+    opacity: 0.9;
+}
+
+.offer__link-2 {
+    display: block;
+    width: 360px;
+    height: 260px;
+    background-blend-mode: multiply;
+    background-image: url(img/for-men.png);
+    background-color: rgba(33, 22, 22, 0.7);
+    text-decoration: none;
+}
+
+.offer__link-2:hover {
+    opacity: 0.9;
+}
+
+.offer__link-3 {
+    display: block;
+    width: 360px;
+    height: 260px;
+    background-blend-mode: multiply;
+    background-image: url(img/for-kids.png);
+    background-color: rgba(33, 22, 22, 0.7);
+    text-decoration: none;
+}
+
+.offer__link-3:hover {
+    opacity: 0.9;
+}
+
+.offer__link-long {
+    display: block;
+    width: 1140px;
+    height: 180px;
+    background-blend-mode: multiply;
+    background-image: url(img/accesories.png);
+    background-color: rgba(33, 22, 22, 0.7);
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.offer__link-long:hover {
+    opacity: 0.9;
+}
+
+.offer__text {
+    margin-top: 105px;
+}
+
+.offer__text-long {
+    margin-top: 65px;
+}
+
+.offer__h4 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer__h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
     color: #F16D7F;
 }
