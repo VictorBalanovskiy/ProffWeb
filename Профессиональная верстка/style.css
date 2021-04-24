@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    font-family: Lato;
+    background: #F1E4E6;
+}
+
 header {
     height: 75px;
     background: #222222;
@@ -28,4 +33,43 @@ nav {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+}
+
+.brand {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 764px;
+    background-image: url(img/mainMan.png);
+    background-repeat: no-repeat;
+    background-position: -225px;
+}
+
+.brand__box {
+    display: flex;
+    width: 405px;
+    height: 93px;
+    padding-top: 290px;
+    padding-left: 635px;
+}
+
+.brand__line {
+    margin-right: 16px;
+}
+
+.brand__h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.brand__h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.fashion {
+    color: #F16D7F;
 }
