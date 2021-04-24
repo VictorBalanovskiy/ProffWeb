@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 75px;
+    background: #222222;
+}
+
+nav {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__left-side {
+    width: 111px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.nav__right-side {
+    width: 168px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
