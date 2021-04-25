@@ -168,3 +168,181 @@ nav {
     text-align: center;
     color: #F16D7F;
 }
+
+.featured {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 1395px;
+    margin-top: 96px;
+}
+
+.featured__h2 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+}
+
+.featured__h4 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 581px 581px;
+    grid-gap: 30px;
+    margin-bottom: 48px;
+}
+
+section {
+    background: #F8F8F8;
+}
+
+.section_link-1 {
+    display: block;
+    width: 360px;
+    height: 581px;
+    background-image: url(img/fetured-1.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.section_link-2 {
+    display: block;
+    width: 360px;
+    height: 581px;
+    background-image: url(img/fetured-2.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.section_link-3 {
+    display: block;
+    width: 360px;
+    height: 581px;
+    background-image: url(img/fetured-3.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.section_link-4 {
+    display: block;
+    width: 360px;
+    height: 581px;
+    background-image: url(img/fetured-4.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.section_link-5 {
+    display: block;
+    width: 360px;
+    height: 581px;
+    background-image: url(img/fetured-5.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.section_link-6 {
+    display: block;
+    width: 360px;
+    height: 581px;
+    background-image: url(img/fetured-6.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.section_text {
+    padding: 444px 28px 20px 16px;
+}
+
+.section_h4 {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.section_p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.section_price {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.section_link-btn {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 15px 39px;
+    outline: 1px solid #FF6A6A;
+    text-decoration: none;
+    margin-left: 464px;
+}
+
+.services {
+    height: 341px;
+    background: #222224;
+    margin-top: 95px;
+}
+
+.services__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__h2 {
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-bottom: 16px;
+}
+
+.services__p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.services__img-1 {
+    padding-bottom: 28px;
+}
+
+.services__img-2 {
+    padding-bottom: 19px;
+}
+
+.services__img-3 {
+    padding-bottom: 25px;
+}
+
+.services__section {
+    height: 134px;
+    width: 360px;
+    text-align: center;
+    margin-top: 103px;
+}
